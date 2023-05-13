@@ -6,6 +6,8 @@ PGPTConversation.onMessage((msg) => {
           console.log(JSON.parse(res.res))
           console.log(JSON.parse(res.res).query)
           console.log(JSON.parse(res.res).query.pages)
+          console.log(Object.keys(JSON.parse(res.res).query.pages)[0])
+          console.log(JSON.parse(res.res).query.pages[Object.keys(JSON.parse(res.res).query.pages)[0]])
           let url = JSON.parse(res.res).query.pages[Object.keys(JSON.parse(res.res).query.pages)[0]].thumbnail
           ics[ic].outerHTML = `<img src="${url}></img>`
         })
@@ -19,6 +21,8 @@ PGPTConversation.onMessage((msg) => {
           console.log(JSON.parse(res.res))
           console.log(JSON.parse(res.res).query)
           console.log(JSON.parse(res.res).query.pages)
+          console.log(Object.keys(JSON.parse(res.res).query.pages)[0])
+          console.log(JSON.parse(res.res).query.pages[Object.keys(JSON.parse(res.res).query.pages)[0]])
           let url = JSON.parse(res.res).query.pages[Object.keys(JSON.parse(res.res).query.pages)[0]].thumbnail
           ics[ic].outerHTML = `<img src="${url}></img>`
         })
