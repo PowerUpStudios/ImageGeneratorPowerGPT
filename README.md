@@ -1,7 +1,6 @@
 # Image Generator for PowerGPT
 A free to use extension for generating images with PowerGPT<br/>
 The official image generator extension for PowerGPT.<br/>
-This extension is a very small extension that uses only one file with a name and loadPrompt.
 # What is PowerGPT?
 PowerGPT is an Alpha Chrome Extension giving you the ability to load extensions from Github, Gitlab or the Power Up Studio Server and use them directly in your conversations.<br/>
 PowerGPT extensions have a fully working permission system to allow them do certain things or not.<br/>
