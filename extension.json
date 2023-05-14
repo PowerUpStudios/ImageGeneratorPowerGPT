@@ -1,6 +1,6 @@
 {
   "name": "Image Generator",
-  "loadPrompt": ["From now, when I ask you to generate an image, respond like this (where {key} is the iamge keyword to be generated):", "<power-gpt-html><imgen-c keyword='{key}'></imgen-c></power-gpt-html>"],
+  "loadPrompt": ["From now, when I ask you to get an image from the internet, respond like this (where {key} is the image keyword to be generated):", "<power-gpt-html><imgen-c keyword='{key}'></imgen-c></power-gpt-html>", "If I ask you to generate an image, generate one based off the keyword provided, you can use this list to help:"],
   "permissions": ["js", "conversation"],
   "injectJs": [
     {"url": "/imgen.js"}
